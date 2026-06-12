@@ -11,7 +11,7 @@
     <title>액션 태그 - param</title>
 </head>
 <body>
-<jsp:useBean id="person" class="common.Person" scope="request"/>
+<jsp:useBean id="person" class="bitc.java405.jsp02.Person" scope="request"/>
 <jsp:setProperty name="person" property="name" value="김삿갓"/>
 <jsp:setProperty name="person" property="age" value="56"/>
 <jsp:forward page="ParamForward.jsp?param1=김병연">
