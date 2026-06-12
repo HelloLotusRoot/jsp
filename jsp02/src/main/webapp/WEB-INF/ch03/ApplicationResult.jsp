@@ -10,7 +10,9 @@
 <%
     Map<String, Person> maps
             = (Map<String, Person>) application.getAttribute("maps");
+    
     Set<String> keys = maps.keySet();
+
     for (String key : keys) {
         Person person = maps.get(key);
         out.print(String.format("이름 : %s, 나이 : %d<br/>",

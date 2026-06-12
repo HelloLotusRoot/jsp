@@ -1,4 +1,4 @@
-<%@ page import="common.Person" %>
+<%@ page import="bitc.java405.jsp02.Person" %>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
          pageEncoding="UTF-8" %>
 <html>
