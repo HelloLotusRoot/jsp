@@ -24,5 +24,19 @@
         <jsp:getProperty name="person" property="age"/>
     </li>
 </ul>
+<%-- 액션 태그의 useBean,setProperty, getProperty를 사용하지 않고 자바 빈즈 사용하기 --%>
+<%@ page import="bitc.java405.jsp02.Person" %>
+<%
+    Person pPerson = new Person("홍길동", 25);
+
+    String name = person.getName();
+    int age = person.getAge();
+%>
+
+<ul>
+    <li>이름: <%= name %></li>
+    <li>나이: <%= age %>세</li>
+</ul>
+
 </body>
 </html>
